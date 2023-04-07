@@ -1,182 +1,185 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 /* Header Begins */
-header{
-    min-height: 30vh;
-    background-color: rgb(36, 36, 154);
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
+header {
+  min-height: 30vh;
+  background-color: rgb(36, 36, 154);
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
 }
-.container{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    flex-direction: row;
-    font-size: 1.1em;
-    color: whitesmoke;
+.css {
+  font-size: 2rem;
+  color: red;
+  background-color: transparent;
 }
-nav{
-    display: flex;
-    justify-content: space-around;
-    min-width: 100%;
-    padding: 1.5em;
-    flex-wrap: wrap;
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  font-size: 1.1em;
+  color: whitesmoke;
 }
-a{
-    text-decoration: none;
-    color: whitesmoke;
-    padding: 1em;
+nav {
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  padding: 1.5em;
+  flex-wrap: wrap;
 }
-li{
-    list-style: none;
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 1em;
 }
-ul{
-    list-style: none;
-    display: flex;
+li {
+  list-style: none;
 }
-.img{
-
-    max-width: 400px;
-    min-height: 200px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 4px;
-    box-shadow: 0 0 9px 2px black;
+ul {
+  list-style: none;
+  display: flex;
 }
-.baner{
-    overflow: hidden;
-    color: whitesmoke;
-    min-height: inherit;
-    padding: 2em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 5em;
+.img {
+  max-width: 400px;
+  min-height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 4px;
+  box-shadow: 0 0 9px 2px black;
 }
-h1, .mov {
-    margin-bottom: 15px;
+.baner {
+  overflow: hidden;
+  color: whitesmoke;
+  min-height: inherit;
+  padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5em;
 }
-.top-web{
-   padding: 2em;
-   line-height: 1.2em;
+h1,
+.mov {
+  margin-bottom: 15px;
 }
-.btn-1{
-    color: white;
-    border: aqua solid 1px;
-    padding: .6em 2em;
-    text-align: center;
-    background-color: transparent;
-    transition: ease-out 900ms;
+.top-web {
+  padding: 2em;
+  line-height: 1.2em;
 }
-.btn-1:hover{
-    transition: ease-in-out 700ms;
-    cursor: pointer;
-    box-shadow: 0 0 10px 6px aqua;
+.btn-1 {
+  color: white;
+  border: aqua solid 1px;
+  padding: 0.6em 2em;
+  text-align: center;
+  background-color: transparent;
+  transition: ease-out 900ms;
+}
+.btn-1:hover {
+  transition: ease-in-out 700ms;
+  cursor: pointer;
+  box-shadow: 0 0 10px 6px aqua;
 }
 /* End Header */
 /* The section Begins */
-section{
-    min-height: 30vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-
+section {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.gallary{
-    display: flex;
-    justify-content: center;
-    gap: 1.4em;
-    flex-direction: row;
-    padding: 2em;
+.gallary {
+  display: flex;
+  justify-content: center;
+  gap: 1.4em;
+  flex-direction: row;
+  padding: 2em;
 }
-h2{
-    display: flex;
-    align-self: center;
-    font-size: 2em;
-    margin-top: 2em;
-    margin-bottom: 2em;
+h2 {
+  display: flex;
+  align-self: center;
+  font-size: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
-.second-img{
-    border-radius: 10px;
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    border: rgb(28, 220, 220) solid 5px;
+.second-img {
+  border-radius: 10px;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  border: rgb(28, 220, 220) solid 5px;
 }
-.img-text{
-    font-size: 1.2em;
-    width: 50%;
-    
+.img-text {
+  font-size: 1.2em;
+  width: 50%;
 }
 /* End section */
 /*This is the quote section */
-.quote{
-    min-height: 30vh;
-    background-color: rgb(210, 210, 201);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.quote {
+  min-height: 30vh;
+  background-color: rgb(210, 210, 201);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
-.the-quote{
-    max-width: 700px;
-    font-size: 1.5em;
-    font-weight: 400;
-    align-self: center;
+.the-quote {
+  max-width: 700px;
+  font-size: 1.5em;
+  font-weight: 400;
+  align-self: center;
 }
-.mention{
-    font-size: 25px;
-    font-weight: 900;
-    align-self: flex-end;
+.mention {
+  font-size: 25px;
+  font-weight: 900;
+  align-self: flex-end;
 }
 /* This is the END of the quot section */
 /* This is the footer */
-#main-container{
-    width: 100%;
-    height: 20vh;
+#main-container {
+  width: 100%;
+  height: 20vh;
 }
-footer{
-    margin-top: 2em;
-    align-self: center;
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    min-height: 150px;
-    color: white;
-    background-color: rgb(1, 79, 224);
-    border-radius: 10px;
+footer {
+  margin-top: 2em;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  min-height: 150px;
+  color: white;
+  background-color: rgb(1, 79, 224);
+  border-radius: 10px;
 }
-.last-container{
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    padding: 2em;
+.last-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
 }
-.action{
-    display: flex;
-    flex-direction: column;
-    align-self: center;
+.action {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
 }
-.btn-container{
-    display: flex;
-    align-self: center;
+.btn-container {
+  display: flex;
+  align-self: center;
 }
-.btn-2{
-    background-color: transparent;
-    border: aqua 2px solid;
-    color: white;
-    align-self: flex-end;
-    width: 100px;
-    height: 35px;
-    border-radius: 10px;
+.btn-2 {
+  background-color: transparent;
+  border: aqua 2px solid;
+  color: white;
+  align-self: flex-end;
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
 }
-.bold{
-    font-weight: 700;
+.bold {
+  font-weight: 700;
 }
 /* This is the END of the footer */
